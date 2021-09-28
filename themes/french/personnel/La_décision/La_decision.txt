@@ -1,0 +1,14 @@
+// This template define intent for La décision
+%[&La décision]('train': 500)
+    [&S'il vous plaît?] @[question]
+    [&S'il vous plaît?] @[question_2]
+
+    // ########### Avec le {Je} ###############
+    ~[&Je veux?] ~[savoir] @[question]
+
+
+@[question]
+
+
+
+@[question_2]
